@@ -15,5 +15,5 @@ If player did not guess the number he looses the bet amount
     When Loosing a loosing sound playes 
 
 The player is asked wants to continue the game or not
-
+ 
 If the player runs out of balance GAME OVER
