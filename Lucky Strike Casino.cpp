@@ -119,7 +119,7 @@ int main()
 			
 		}while(Gnumber<1 || Gnumber>10);
 		
-		if(Bamount<5) dice=Gnumber; // in order to make the player to feel lucky so he will play more
+		if(Bamount<rand()%5+1) dice=Gnumber; // in order to make the player to feel lucky so he will play more
 		else dice=rand()%10+1;
 		
 		if(dice==Gnumber) // WINING SIDE
